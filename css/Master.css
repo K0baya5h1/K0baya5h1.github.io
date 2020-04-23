@@ -1,0 +1,75 @@
+.title{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+body{
+  background-color: green;
+}
+
+th,td{
+  border: solid 1px;
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+#navi ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+#navi ul li{
+  display: inline-block;
+  /* width: 100px; */
+  padding: 10px 10px;
+  margin: 10px 0;
+  vertical-align: middle;
+  background-color: white;
+  color: blue;
+  border: solid 3px;
+}
+
+#paneru ul{
+  list-style-type: none;
+}
+
+#paneru ul li{
+  display: inline-block;
+  /* width: 100px; */
+  padding: 10px 10px;
+  margin: 10px 10px;
+  vertical-align: middle;
+  background-color: white;
+  color: blue;
+  border: solid 3px;
+}
+
+
+#paneru ul p,a{
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+#navi ul li:hover{
+  background-color: yellow;
+  color:red;
+  border: solid 3px;
+  border-color: red;
+}
+
+#paneru h2{
+  color:white;
+}
