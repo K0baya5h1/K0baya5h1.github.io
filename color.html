@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js">
+
+    </script>
+    <title>a</title>
+  </head>
+  <body>
+    <!-- <h1 style="position: absolute;top: 50%;left: 50%;-webkit-transform : translate(-50%,-50%);transform : translate(-50%,-50%);width: 100px;text-align: center;">うんち</h1> -->
+  </body>
+  <script type="text/javascript">
+    var r=0,g=0,b=0;
+    var str="";
+    var f=function dr() {
+      r=Math.floor(Math.random()*256);
+      g=Math.floor(Math.random()*256);
+      b=Math.floor(Math.random()*256);
+      str="rgb(" + r + "," + g + "," + b + ")";
+      $("body").css("background",str);
+    }
+    setInterval(f,429);
+  </script>
+</html>
