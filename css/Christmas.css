@@ -95,10 +95,9 @@ div.window{
 
 div.santa{
   font-size: 50px;
-  right:0%;
+  right:20%;
   position: fixed;
-  animation: santa_anim 3s linear infinite;
-
+  animation: santa_anim 10s linear infinite;
 }
 
 @keyframes anim {
